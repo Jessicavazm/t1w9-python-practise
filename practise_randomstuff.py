@@ -24,12 +24,20 @@ age = 30
 formatted_string = "{} is {} years old".format(name,age)
 print(formatted_string)
 
-# Collecting user input and using it with IF statement, input needs to be converted to INT since we are performing numbers comparison. User input always returns in STR by default.
+# Calculate median using .median
+import statistics
+numbers = [4,6,3,5,3]
 
-driving_age = int(input("What is your age? ")) # user input is converted to INT
+median_of_numbers = statistics.median(numbers)
 
-if driving_age >= 18:
-    print("You can get behind the wheels!!")
-else:
-    print("You are too young my friend!!")
+print(f"Median of numbers is: {median_of_numbers}" )
 
+# Using parameter to pass an argument
+def greet (name):
+    print(f"Hello", name)
+
+greet("Jess")
+
+def greet(fname, lname):
+    print(f"Hello {fname} {lname}, welcome to class!")
+greet("Jess","Vaz")

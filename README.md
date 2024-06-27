@@ -28,11 +28,14 @@ BOOLEAN: Data type that can only have a TRUE or False value, often used with com
 
 # Flow statements
     - Control the flow of the program using flow statements:
-    - IF, ELIF and ELSE (Command gets executed once one of the statements becomes TRUE)
-    - FOR interacts with each item in the sequence in the order they appear in the sequence. The sequence can be string, list, tuple or range. FOR executes a block of code for each item in the sequence.
-
-    - WHILE (While condition is true, keep executing this line of code)
+    - Conditional Statements(if, elif, else) Command gets executed once one of the statements becomes TRUE.
+    - FOR and WHILE Loops = Make sure items can ENTER and EXIT the loop.
+    - FOR loop is used to iterate over a sequence (such as a list, tuple, string, or range) and perform actions on each item in that sequence.
+    - WHILE loop (While condition is true, block of code keeps being executed). 
+    - RANGE() is commonly used with FOR, it iterates over a item in a range. It can also return items in a list if needed using list() function. It can be used with (start, stop, step) or only (stop). When you want to create a sequence, you can start with 1, however if you are trying to fetch an item, you will be working with index and index by default starts at 0.
     - MATCH-CASE 
-    - RANGE() is commonly used with FOR, it iterates over a item in a range. It can also return items in a list if needed using list() function. It can be used with (start, stop, step) or only (stop). 
     - PASS (Does nothing)
     - BREAK (Exit the program)
+
+
+
