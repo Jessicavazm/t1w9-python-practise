@@ -90,6 +90,13 @@ Expressions are combination of values/ variables/ operators or functions that ca
 - (Start, Stop, Step) (0,you need to define, 1) where 0 and 1 are default arguments for start and step.
 - If you want to print in reverse, you can use negative step -1. Start number > stop number to work.
 
+## Functions
+- Block of codes that performs a specific task, they can reused. Functions can intake inputs (args), process them and return an output(result).
+- They help to keep the code more readable and organised.
+
+## Classes
+- Classes 
+
 ## Pseudo code
 - Description of steps in an algorithm or a program, step by step in human language using some code syntaxes. 
 - Pseudo code serves as a bridge between human understanding and eventual implementation in a programming language.
@@ -101,4 +108,4 @@ Expressions are combination of values/ variables/ operators or functions that ca
     - Rectangle = Process/ Step
     - Diamond = Decision
     - Arrow = Flow
-    
+

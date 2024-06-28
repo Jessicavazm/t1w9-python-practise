@@ -32,16 +32,6 @@ median_of_numbers = statistics.median(numbers)
 
 print(f"Median of numbers is: {median_of_numbers}" )
 
-# Using parameter to pass an argument
-def greet (name):
-    print(f"Hello", name)
-
-greet("Jess")
-
-def greet(fname, lname):
-    print(f"Hello {fname} {lname}, welcome to class!")
-greet("Jess","Vaz")
-
 # NOT Logical operator, try to think that the variable is just a name, and then you give the value to it, True or False. The logical operator not inverts the value, if False changes to True, if True changes to False but it doesn't change the variable original value.
 
 blue_nice_colour = True
