@@ -47,3 +47,9 @@ for each in text:
         continue
     print(each,end=" ")
 
+# Prints ---- in a new line using \n 
+print("\n-----")
+animals = ["Cat", "Dog", "Bird"]
+
+for index, animal in enumerate(animals):
+    print(f"{animal}:{index}")

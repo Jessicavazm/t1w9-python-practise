@@ -12,7 +12,7 @@ In this folder/ repo I will be practising what I am learning in order to underst
 - STRING: set of letters, special characters, symbols and even numbers if they are placed between double quotation.
 - BOOLEAN: Data type that can only have a TRUE or False value, often used with comparisons operands, logical operators.
 
-- List can contain different data types in one variable.
+- List can contain different data types in one variable. To create list use []
 - Matrix can contains lists inside lists = 2 dimensions (nested loops are good for running multi-dimensional lists)
 
 ## Operators
@@ -90,3 +90,15 @@ Expressions are combination of values/ variables/ operators or functions that ca
 - (Start, Stop, Step) (0,you need to define, 1) where 0 and 1 are default arguments for start and step.
 - If you want to print in reverse, you can use negative step -1. Start number > stop number to work.
 
+## Pseudo code
+- Description of steps in an algorithm or a program, step by step in human language using some code syntaxes. 
+- Pseudo code serves as a bridge between human understanding and eventual implementation in a programming language.
+
+## Flow chart
+- Diagram that represents a process or an algorithm, it helps to visualize.
+    - Oval = Start/ End
+    - Parallelogram = Input/ Output
+    - Rectangle = Process/ Step
+    - Diamond = Decision
+    - Arrow = Flow
+    
