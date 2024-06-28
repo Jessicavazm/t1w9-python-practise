@@ -1,4 +1,4 @@
-# Sintax using for and range:
+# Syntax using for and range:
 # for variable in range():
 #     block of codes
 

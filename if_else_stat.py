@@ -37,10 +37,38 @@ else:
 
 # Collecting user input and using it with IF statement, input needs to be converted to INT since we are performing numbers comparison. User input always returns in STR by default. 
 
-driving_age = int(input("What is your age? ")) # user input is converted to INT
+# driving_age = int(input("What is your age? ")) # user input is converted to INT
 
-if driving_age >= 18:
-    print("You can get behind the wheels!!")
+# if driving_age >= 18:
+#     print("You can get behind the wheels!!")
+# else:
+#     print("You are too young my friend!!")
+
+# Nested IFS, checks two conditions
+
+age = 32
+has_permission = True
+
+if age >= 18: # first condition
+    if has_permission: # second condition
+        print("You can drive")
+    else: # printed in case if only condition is true
+        print("You can't drive")
+else: # it goes straight here after first condition is False 
+    print("You can't drive")
+
+# Using boolean operator AND , code gets reduced.
+
+if age >= 18 and has_permission:
+    print("Access granted")
 else:
-    print("You are too young my friend!!")
+    print("Access denied")
 
+# Ternary operator, it condenses everything in one line of code.
+# Syntax
+# result IF condition ELSE result
+print("Access granted") if age >= 18 and has_permission else print("Access denied,sorry")
+# Another way using string as value, this example assigns a value to a variable (message).
+message = "Access granted Mate" if age >=18 and has_permission else "Access Denied Mate"
+
+print(message)

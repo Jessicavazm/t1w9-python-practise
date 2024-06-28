@@ -17,3 +17,12 @@ while i < 3:
     i += 1
 print("Condition has changed to false and loop has ended.")
 
+# Counting coins
+coins = 6
+
+while coins > 0:
+    print("Counted 1!")
+    coins -= 1
+
+print("All coins have been counted!")
+
