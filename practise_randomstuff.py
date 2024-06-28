@@ -41,3 +41,19 @@ greet("Jess")
 def greet(fname, lname):
     print(f"Hello {fname} {lname}, welcome to class!")
 greet("Jess","Vaz")
+
+# NOT Logical operator, try to think that the variable is just a name, and then you give the value to it, True or False. The logical operator not inverts the value, if False changes to True, if True changes to False but it doesn't change the variable original value.
+
+blue_nice_colour = True
+
+if not blue_nice_colour:
+    print("Yes you are right")
+else:
+    print("Yellow is better than Blue")
+
+is_raining = True
+
+if not is_raining:
+    print("Bring your umbrella")
+else:
+    print("Don't bring your umbrella")
