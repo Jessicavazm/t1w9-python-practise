@@ -29,5 +29,21 @@ colours = ["Red", "Yellow", "Black"]
 for index,colour in enumerate(colours):
     print(f"{index}:{colour}")
 
-           
+# Finding the largest number in list
+numbers_list = [1,5,3,6,7,24,532,43,2]
+largest_number = 1
+
+for number in numbers_list:
+    if number > largest_number:
+        largest_number = number
+print(f"The largest number is {largest_number}")
+
+# Skipping vowels in variable, end=" " prints the output in horizontal line
+text = "Coder Academy"
+vowels ="A E I O U a e i o u"
+
+for each in text:
+    if each in vowels:
+        continue
+    print(each,end=" ")
 

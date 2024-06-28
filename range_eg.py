@@ -32,3 +32,15 @@ list = ["Apple", "Banana", "Strawberry"]
 for index in range (len(list)):
     print(index)
 
+for each in range(1,3,1):
+    print(each)
+
+# Range in reverse, start number needs to be > than stop number.
+for each in range(10,5,-1):
+    print(each)
+
+# Using for and range to calculate the total, initialised total to 0 is necessary to ensure the variable total starts at a know stage.
+total = 0
+for each in range(1,5,1):
+    total += each
+print(total)
