@@ -93,6 +93,8 @@ Expressions are combination of values/ variables/ operators or functions that ca
 ## Functions
 - Block of codes that performs a specific task, they can reused. Functions can intake inputs (args), process them and return an output(result).
 - They help to keep the code more readable and organised.
+- In a function structure you need the main function and inside the main function you have the sub-functions.
+- Parameters are used to pass information to function, if a function gets input the parameters will be empty since there's no need to pass information in this case.
 
 ## Classes
 - Classes 
