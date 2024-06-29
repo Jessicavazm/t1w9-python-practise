@@ -6,18 +6,43 @@ In this folder/ repo I will be practising what I am learning in order to underst
 ## Dry Coding
 - Don't repeat yourself.
 
-## Types of data in Python
+## Basic Data types 
 - INT: Whole numbers
 - FLOAT: Decimal Numbers
 - STRING: set of letters, special characters, symbols and even numbers if they are placed between double quotation.
 - BOOLEAN: Data type that can only have a TRUE or False value, often used with comparisons operands, logical operators.
 
-- List can contain different data types in one variable. To create list use []
-- Matrix can contains lists inside lists = 2 dimensions (nested loops are good for running multi-dimensional lists)
+## Advanced data types
+
+### List []
+- Syntax: list_name = [item1, item2, item3, ...]
+- A list is an ordered collection of items that can be of different types.
+- Mutable and it can contain repetitive items.
+- Matrix can contains lists inside list = 2 dimensions (nested loops are good for running multi-dimensional lists)
+
+### Tuples ()
+- Syntax: list_name = (item1, item2, item3, ...)
+- Ordered collection of items that can be of different types similar to lists but IMMUTABLE.
+
+### Dictionary {}
+- Syntax: dict_name = {key1: value1, key2: value2, ...}
+- Collection of KEY-VALUE pairs. Each key-value is unique.
+- Unordered
+- Mutable 
+
+### Sets
+- Syntax: set_name = {item1, item2, item3, ...}
+- Unordered 
+- Unique elements
+- Mutable
+- Sets operations:
+    - Union: Add sets together
+    - Intersection: Common value
+    - Difference: Elements in first set but not in second set.
 
 ## Operators
 
-## Comparison Operators 
+### Comparison Operators 
 - Compare two operands and results in boolean value.
 == Equality operator 
 > Greater than operator 
@@ -25,7 +50,7 @@ In this folder/ repo I will be practising what I am learning in order to underst
 >= Greater than or equals operator
 <= Less than or equals operator
 
-## Assignment operators 
+### Assignment operators 
 - Used to execute operator and assign value back to variable.
 =	a = 10	a = 10
 +=	a += 30	a = a + 30
@@ -95,6 +120,15 @@ Expressions are combination of values/ variables/ operators or functions that ca
 - They help to keep the code more readable and organised.
 - In a function structure you need the main function and inside the main function you have the sub-functions.
 - Parameters are used to pass information to function, if a function gets input the parameters will be empty since there's no need to pass information in this case.
+
+## Arguments and Parameters
+
+- Wildcard args (*args and **kwargs) allows functions to accept a x number of args, it's useful when you don't know the amount of the arguments the function will take. Both args accepts any number of arguments.
+- *args: these are positional arguments, args are passed in their position order. 
+- **kwargs: key and value keys, similar to Dictionary. It collects the KEY-Value pairs into a dictionary under **kwargs.
+
+
+
 
 ## Classes
 - Classes 
