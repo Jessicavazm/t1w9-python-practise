@@ -122,16 +122,47 @@ Expressions are combination of values/ variables/ operators or functions that ca
 - Parameters are used to pass information to function, if a function gets input the parameters will be empty since there's no need to pass information in this case.
 
 ## Arguments and Parameters
-
 - Wildcard args (*args and **kwargs) allows functions to accept a x number of args, it's useful when you don't know the amount of the arguments the function will take. Both args accepts any number of arguments.
-- *args: these are positional arguments, args are passed in their position order. 
+- *args: these are positional arguments,they stores a sequence and they are processed by the position.
 - **kwargs: key and value keys, similar to Dictionary. It collects the KEY-Value pairs into a dictionary under **kwargs.
 
+## Modules
+- Important for organising and structuring code.
+- Groups similar functions, classes, variables and runnable codes in a separated .py file.
+- Python modules are inside 'Python Standard Library', you can import modules to use specific functions.
+- Modules can be imported by using: import my_modules 
+- Modules don't need init file since they are single files and can be imported directly using (import).
+
+## Packages
+- Important for organising and structuring code.
+- Collection of modules, package is created in a directory and it contains __init__.py file
+- Packages folders contain __init__ file to indicate to Python that directory should be treated as a package and be able to import modules from the package. This file contains initialisation code for the package. Since packages are in the directory hierarchy, it needs the init to be recognized by Python as a package.
+- __init__ doesn't need necessary to contain anything or it can contain initialisation code. 
+- You can import multiple modules from packages using: from mypackage import my_modules, my_module1, my_module2
+
+## Object Oriented Programming 00P
+
+### Class
+- Classes are the blueprint for an object.
+- Contains attributes and methods(functions) that creates an object.
+- Name of the class always starts with upper case.
+- __init__ "initialise" the class
+- class Dog()
+    def __init__(self, name, breed):
+- Argument (self) is always passed in parameter along other attributes.
+- Benefits:
+    - Modularity: code is split in modules = classes that are well defined and execute specific functions. You can run modules independently of the source code making it easier to debug, test, and make changes.
+    - Reusable: classes can be reused in multiple programs.
+    - Easy debugging/ maintenance.
+
+### Object
+- An instance of a class. It encapsulates data (attributes) and behaviors (methods).
+- You can create multiple objects for the same class.
+
+## 4 pillars of OOP
 
 
 
-## Classes
-- Classes 
 
 ## Pseudo code
 - Description of steps in an algorithm or a program, step by step in human language using some code syntaxes. 
