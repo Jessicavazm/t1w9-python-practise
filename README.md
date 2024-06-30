@@ -142,28 +142,47 @@ Expressions are combination of values/ variables/ operators or functions that ca
 
 ## Object Oriented Programming 00P
 
-### Class
-- Classes are the blueprint for an object.
-- Contains attributes and methods(functions) that creates an object.
+### Classes
+- Blueprint for an object contains attributes(characteristics) and methods(functions) that creates the object.
 - Name of the class always starts with upper case.
-- __init__ "initialise" the class
+- __init__ "initialise" the class, also called "constructor", it contains the attributes.
 - class Dog()
     def __init__(self, name, breed):
 - Argument (self) is always passed in parameter along other attributes.
-- Benefits:
-    - Modularity: code is split in modules = classes that are well defined and execute specific functions. You can run modules independently of the source code making it easier to debug, test, and make changes.
-    - Reusable: classes can be reused in multiple programs.
-    - Easy debugging/ maintenance.
 
 ### Object
 - An instance of a class. It encapsulates data (attributes) and behaviors (methods).
 - You can create multiple objects for the same class.
+- Implementation of the class.
+
+### Benefits:
+- Modularity: code is split in modules = classes that are well defined and execute specific functions. You can run modules independently of the source code making it easier to debug, test, and make changes.
+- Reusable: classes can be reused in multiple programs.
+- Easy debugging/ maintenance.
 
 ## 4 pillars of OOP
 
+### Encapsulation
+- The design pattern where class and instance data is private, and only accessible by using GETTER and SETTER methods.
+- Only the functions within the encapsulated attributes can access the encapsulated data.
+- E.g: self.__name = this now is encapsulated and has restrict access.
 
+## GET and SET Modifying methods
+- Getter: Method that allows to access data  
+- Setter: Method that allows attribute data 
 
+### Abstraction
+- It allows to hide complex details and only show the functionality of an object.
+- Using: from abc import ABC, abstractmethod
 
+### Inheritance
+- You can create a class that inherits the attributes and methods from another formed class. 
+- New class = derived class / Existing class = Base class
+- Re use an existing class
+
+### Polymorphism
+- Allows methods to do different things depending on the object it is acting upon. 
+-
 ## Pseudo code
 - Description of steps in an algorithm or a program, step by step in human language using some code syntaxes. 
 - Pseudo code serves as a bridge between human understanding and eventual implementation in a programming language.
