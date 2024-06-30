@@ -178,7 +178,8 @@ Expressions are combination of values/ variables/ operators or functions that ca
 ### Inheritance
 - You can create a class that inherits the attributes and methods from another formed class. 
 - New class = derived class / Existing class = Base class
-- Re use an existing class
+- Child class can access parent's class but not the other way around.
+- Derived class can have extra methods
 
 ### Polymorphism
 - Allows methods to do different things depending on the object it is acting upon. 
