@@ -165,7 +165,7 @@ Expressions are combination of values/ variables/ operators or functions that ca
 ### Encapsulation
 - The design pattern where class and instance data is private, and only accessible by using GETTER and SETTER methods.
 - Only the functions within the encapsulated attributes can access the encapsulated data.
-- E.g: self.__name = this now is encapsulated and has restrict access.
+- E.g: self.__name = uses __ (double underline) to encapsulated and has restrict access.
 
 ## GET and SET Modifying methods
 - Getter: Method that allows to access data  
@@ -179,7 +179,7 @@ Expressions are combination of values/ variables/ operators or functions that ca
 - You can create a class that inherits the attributes and methods from another formed class. 
 - New class = derived class / Existing class = Base class
 - Child class can access parent's class but not the other way around.
-- Derived class can have extra methods
+- Derived class can have extra attributes/ methods
 
 ### Polymorphism
 - Allows methods to do different things depending on the object it is acting upon. 
@@ -195,4 +195,32 @@ Expressions are combination of values/ variables/ operators or functions that ca
     - Rectangle = Process/ Step
     - Diamond = Decision
     - Arrow = Flow
+
+## Types of errors in Python
+- Stake Trace = Always start reading from the bottom, it contains info about the exception error.
+
+### Silent logic errors
+- In this type of error, the code doesn't do what you think it does, but it runs completely fine. To check for this type of error the best path is testing.
+
+### Syntax errors
+- This time of error occurs when interpreter doesn't understand our code, there's an error in the grammar and the interpreter can't process the code. Some examples of syntax errors include missing character, connotations, use of brackets incorrectly, wrong values passed for variables, wrong indentation.
+- Python first scans the code and if there's a syntax error the code even doesn't start.
+
+### Exceptions
+- Type of an error that in the program execution, once the interpreter faces an exception error, it stops and throws out a message displaying what type of error. 
+- In this case, the code is grammatically correct but it can't be executed.
+- You can only see this error when the code is being executed.
+- Some of the exceptions errors include:
+    - Zero division Error: division by zero
+    - Type error: when a function or operation is applied to wrong data
+    - Value error: when a function receives the right argument but the wrong value
+    - Index error: when you try to access an index that can't be access
+    - Key error: when you try to access a key that doesn't exist in dictionary
+    - File not found error: when you try to access a file that doesn't exist
+    
+### Try/Except/Finally statements
+- It helps to catch the error before it crashes the program.
+- Try: It contains the block of code that might occur an exception.
+- Except: It contains the block of code that will be executed if exception error occurs.
+- Finally: It contains the block of code that will be executed regardless if an exception error occurred or not.
 
